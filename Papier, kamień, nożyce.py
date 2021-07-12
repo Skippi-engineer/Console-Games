@@ -4,8 +4,8 @@ from random import*
 gra = True
 
 while gra:
-    losowa = randint(1, 3)
     wybor = (input('papier/nożyce/kamień: '))
+    losowa = randint(1, 3)
 
     if losowa == 1:
         print('papier')
